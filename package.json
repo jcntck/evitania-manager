@@ -1,0 +1,16 @@
+{
+  "name": "evitania-manager",
+  "version": "0.1.0",
+  "description": "Planejador de craft para Evitania Online",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "electron": "^37.2.6"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
