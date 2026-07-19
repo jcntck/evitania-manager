@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' asset: data:; style-src 'self'; script-src 'self'; connect-src 'self' asset:">
+  <title>Evitania Manager</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-icon">E</div><div><strong>Evitania</strong><span>Manager</span></div></div>
+    <nav id="navigation"></nav>
+    <div class="sidebar-actions">
+      <button id="sync" disabled title="Disponível em uma versão futura">⇅ Sincronizar</button>
+      <button id="open-folder">⌑ Abrir local dos dados</button>
+    </div>
+  </aside>
+  <main>
+    <header class="topbar">
+      <div><p class="eyebrow">OFICINA DO ARTESÃO</p><h1 id="page-title">Planejador</h1></div>
+      <div id="save-status" class="save-status">Dados locais</div>
+    </header>
+    <section id="content"></section>
+  </main>
+  <dialog id="editor"><form id="editor-form" method="dialog"></form></dialog>
+  <dialog id="goal-editor"><form id="goal-form" method="dialog"></form></dialog>
+  <div id="toast" role="status"></div>
+  <script type="module" src="./app.ts"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fluxo Git do Projeto"
+  short_description: "Branches, commits e PRs claros e seguros"
+  default_prompt: "Use $git-workflow para preparar uma feature com branch, commits e pull request."

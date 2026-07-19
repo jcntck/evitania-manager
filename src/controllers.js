@@ -1,4 +1,0 @@
-(function (root, factory) { root.EvitaniaControllers = factory(root.EvitaniaModels); })(window, Models => {
-  class PlanningController { constructor(data, save) { this.data = data; this.save = save; } async commit() { await this.save(this.data); } setGoal(recipeId, quantity) { this.data.planning.goals.push({ recipeId, quantity: Models.number(quantity) || 1 }); return this.commit(); } removeGoal(index) { this.data.planning.goals.splice(index, 1); return this.commit(); } setStock(id, value) { this.data.planning.stock[id] = Models.number(value); return this.commit(); } setGatherRate(id, value) { this.data.planning.gatherRates[id] = Models.number(value); return this.commit(); } setKillRate(id, value) { this.data.planning.killRates[id] = Models.number(value); return this.commit(); } setLoot(value) { this.data.planning.lootQuantity = Models.number(value); return this.commit(); } }
-  return { PlanningController };
-});
