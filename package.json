@@ -1,16 +1,93 @@
 {
   "name": "evitania-manager",
   "version": "0.1.0",
-  "description": "Planejador de craft para Evitania Online",
-  "main": "src/main.js",
+  "description": "Gerenciador de produção e coleta para Evitania",
+  "author": "João Neto",
+  "desktopName": "com.joaoneto.evitania.manager.desktop",
+  "main": "dist/main/main/main.js",
   "scripts": {
-    "start": "electron .",
-    "test": "node --test"
+    "clean": "node scripts/clean.mjs",
+    "build:main": "tsc -p tsconfig.main.json",
+    "build:renderer": "vite build",
+    "icons": "node scripts/generate-icons.mjs",
+    "build": "npm run clean && npm run icons && npm run build:main && npm run build:renderer",
+    "start": "npm run build && electron .",
+    "dev": "npm run build && electron .",
+    "typecheck": "tsc -p tsconfig.main.json --noEmit && tsc -p tsconfig.renderer.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dist:linux": "npm run build && electron-builder --linux AppImage zip",
+    "dist:windows": "npm run build && electron-builder --win nsis zip",
+    "dist": "npm run dist:linux && npm run dist:windows"
   },
   "devDependencies": {
-    "electron": "^37.2.6"
+    "@types/node": "^26.1.1",
+    "electron": "^43.1.1",
+    "electron-builder": "^26.15.3",
+    "png-to-ico": "^3.0.2",
+    "sharp": "^0.35.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5",
+    "vitest": "^4.1.10"
   },
-  "dependencies": {
-    "xlsx": "^0.18.5"
+  "build": {
+    "appId": "com.joaoneto.evitania.manager",
+    "productName": "Evitania Manager",
+    "copyright": "Copyright © João Neto",
+    "asar": true,
+    "forceCodeSigning": false,
+    "directories": {
+      "output": "release",
+      "buildResources": "assets/app"
+    },
+    "files": [
+      "dist/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "assets/app/icon.png",
+        "to": "icon.png"
+      }
+    ],
+    "linux": {
+      "target": [
+        "AppImage",
+        "zip"
+      ],
+      "category": "Game",
+      "synopsis": "Planejador de produção para Evitania",
+      "description": "Gerencie itens, receitas, recursos, drops e planos de produção do jogo Evitania.",
+      "maintainer": "João Neto",
+      "executableName": "evitania-manager",
+      "vendor": "João Neto",
+      "desktop": {
+        "entry": {
+          "Name": "Evitania Manager",
+          "Comment": "Planejador de produção para Evitania",
+          "StartupWMClass": "com.joaoneto.evitania.manager"
+        }
+      },
+      "syncDesktopName": true,
+      "icon": "assets/app/icon.png",
+      "artifactName": "${productName}-${version}-${arch}.${ext}"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ],
+      "icon": "assets/app/icon.ico",
+      "signtoolOptions": {
+        "publisherName": "João Neto"
+      },
+      "artifactName": "${productName}-${version}-${arch}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
   }
 }
