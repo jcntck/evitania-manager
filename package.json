@@ -1,6 +1,6 @@
 {
   "name": "evitania-manager",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Gerenciador de produção e coleta para Evitania",
   "author": "João Neto",
   "desktopName": "com.joaoneto.evitania.manager.desktop",
@@ -17,8 +17,8 @@
     "typecheck": "tsc -p tsconfig.main.json --noEmit && tsc -p tsconfig.renderer.json --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "dist:linux": "npm run clean:release && npm run build && electron-builder --linux AppImage",
-    "dist:windows": "npm run clean:release && npm run build && electron-builder --win nsis"
+    "dist:linux": "npm run clean:release && npm run build && electron-builder --linux AppImage --publish never",
+    "dist:windows": "npm run clean:release && npm run build && electron-builder --win nsis --publish never"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
