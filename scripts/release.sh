@@ -7,17 +7,23 @@ if [[ ! "$version" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
   exit 1
 fi
 
+package_version="$(node -p "require('./package.json').version")"
+if [[ "$version" != "v$package_version" ]]; then
+  echo "A tag $version não corresponde à versão $package_version do package.json." >&2
+  echo "Execute: npm version ${version#v} --no-git-tag-version" >&2
+  echo "Depois faça commit e push da alteração antes de tentar novamente." >&2
+  exit 1
+fi
+
 if [[ -n "$(git status --porcelain)" ]]; then
   echo "O repositório deve estar limpo antes da release." >&2
   exit 1
 fi
 
-for tag in "$version" "$version-linux" "$version-windows"; do
-  if git rev-parse --verify --quiet "refs/tags/$tag" >/dev/null; then
-    echo "A tag $tag já existe." >&2
-    exit 1
-  fi
-done
+if git rev-parse --verify --quiet "refs/tags/$version" >/dev/null; then
+  echo "A tag $version já existe." >&2
+  exit 1
+fi
 
 npm ci
 npm test
@@ -26,8 +32,6 @@ npm run build
 npm audit --omit=dev
 
 git tag -a "$version" -m "Release $version"
-git tag -a "$version-linux" -m "Linux build for $version"
-git tag -a "$version-windows" -m "Windows build for $version"
-git push origin "$version" "$version-linux" "$version-windows"
+git push origin "$version"
 
-echo "Tags publicadas. O GitHub Actions gerará os artefatos por plataforma."
+echo "Tag publicada. O GitHub Actions gerará uma Release com os builds de Linux e Windows."

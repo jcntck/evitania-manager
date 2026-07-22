@@ -3,18 +3,30 @@ name: Release builds
 on:
   push:
     tags:
-      - 'v*-linux'
-      - 'v*-windows'
+      - 'v*.*.*'
 
-permissions:
-  contents: write
-  id-token: write
-  attestations: write
+permissions: {}
 
 jobs:
   build:
-    name: Build ${{ endsWith(github.ref_name, '-windows') && 'Windows' || 'Linux' }}
-    runs-on: ${{ endsWith(github.ref_name, '-windows') && 'windows-latest' || 'ubuntu-latest' }}
+    name: Build ${{ matrix.name }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Linux
+            os: ubuntu-latest
+            command: npm run dist:linux
+            artifact-name: evitania-manager-linux
+            artifact-path: release/*.AppImage
+          - name: Windows
+            os: windows-latest
+            command: npm run dist:windows
+            artifact-name: evitania-manager-windows
+            artifact-path: release/*.exe
+    runs-on: ${{ matrix.os }}
+    permissions:
+      contents: read
     steps:
       - name: Check out source
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
@@ -25,44 +37,66 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Validate tag and package version
+        shell: bash
+        run: |
+          package_version="$(node -p "require('./package.json').version")"
+          if [[ "${GITHUB_REF_NAME}" != "v${package_version}" ]]; then
+            echo "A tag ${GITHUB_REF_NAME} não corresponde ao package.json (${package_version})." >&2
+            exit 1
+          fi
+
       - name: Install dependencies
         run: npm ci
 
       - name: Validate source
         run: npm test && npm run typecheck && npm audit --omit=dev
 
-      - name: Build Linux artifacts
-        if: endsWith(github.ref_name, '-linux')
-        run: npm run dist:linux
-
-      - name: Build Windows artifacts
-        if: endsWith(github.ref_name, '-windows')
-        run: npm run dist:windows
+      - name: Build application
+        run: ${{ matrix.command }}
         env:
-          CSC_IDENTITY_AUTO_DISCOVERY: ${{ secrets.WIN_CSC_LINK != '' }}
-          WIN_CSC_LINK: ${{ secrets.WIN_CSC_LINK }}
-          WIN_CSC_KEY_PASSWORD: ${{ secrets.WIN_CSC_KEY_PASSWORD }}
+          CSC_IDENTITY_AUTO_DISCOVERY: ${{ matrix.name == 'Windows' && secrets.WIN_CSC_LINK != '' }}
+          WIN_CSC_LINK: ${{ matrix.name == 'Windows' && secrets.WIN_CSC_LINK || '' }}
+          WIN_CSC_KEY_PASSWORD: ${{ matrix.name == 'Windows' && secrets.WIN_CSC_KEY_PASSWORD || '' }}
+
+      - name: Store application artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ${{ matrix.artifact-name }}
+          path: ${{ matrix.artifact-path }}
+          if-no-files-found: error
+          retention-days: 7
+
+  release:
+    name: Publish GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+      id-token: write
+      attestations: write
+    steps:
+      - name: Check out source
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+
+      - name: Download application artifacts
+        uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16
+        with:
+          path: release
+          merge-multiple: true
 
       - name: Generate checksums and SBOM
         run: node scripts/release-metadata.mjs
 
-      - name: Attest Linux artifacts
-        if: endsWith(github.ref_name, '-linux')
+      - name: Attest application artifacts
         uses: actions/attest-build-provenance@e8998f949152b193b063cb0ec769d69d929409be
         with:
           subject-path: |
             release/*.AppImage
-            release/*.zip
-
-      - name: Attest Windows artifacts
-        if: endsWith(github.ref_name, '-windows')
-        uses: actions/attest-build-provenance@e8998f949152b193b063cb0ec769d69d929409be
-        with:
-          subject-path: |
             release/*.exe
-            release/*.zip
 
-      - name: Publish platform release
+      - name: Publish release
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}

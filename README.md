@@ -29,7 +29,7 @@ npm run dist:linux
 npm run dist:windows
 ```
 
-Linux gera AppImage e ZIP; Windows gera instalador NSIS e ZIP. A assinatura Windows depende das credenciais descritas em [docs/seguranca-windows.md](docs/seguranca-windows.md).
+Linux gera um AppImage; Windows gera um instalador NSIS. A assinatura Windows depende das credenciais descritas em [docs/seguranca-windows.md](docs/seguranca-windows.md).
 
 ## Release
 
@@ -39,4 +39,4 @@ Com o repositório limpo e as alterações já enviadas à branch principal:
 scripts/release.sh v1.0.0
 ```
 
-O script valida o projeto e cria as tags `v1.0.0`, `v1.0.0-linux` e `v1.0.0-windows`. As tags de plataforma acionam o GitHub Actions para gerar artefatos, checksums SHA-256, SBOM e atestações de procedência.
+O script valida o projeto e cria a tag `v1.0.0`. Ela aciona o GitHub Actions para gerar uma única GitHub Release contendo os builds de Linux e Windows, checksums SHA-256, SBOM e atestações de procedência. Consulte o [guia de releases](docs/releases.md) para a configuração inicial e o passo a passo completo.

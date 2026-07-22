@@ -1,12 +1,13 @@
 {
   "name": "evitania-manager",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Gerenciador de produção e coleta para Evitania",
   "author": "João Neto",
   "desktopName": "com.joaoneto.evitania.manager.desktop",
   "main": "dist/main/main/main.js",
   "scripts": {
     "clean": "node scripts/clean.mjs",
+    "clean:release": "node scripts/clean-release.mjs",
     "build:main": "tsc -p tsconfig.main.json",
     "build:renderer": "vite build",
     "icons": "node scripts/generate-icons.mjs",
@@ -16,9 +17,8 @@
     "typecheck": "tsc -p tsconfig.main.json --noEmit && tsc -p tsconfig.renderer.json --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "dist:linux": "npm run build && electron-builder --linux AppImage zip",
-    "dist:windows": "npm run build && electron-builder --win nsis zip",
-    "dist": "npm run dist:linux && npm run dist:windows"
+    "dist:linux": "npm run clean:release && npm run build && electron-builder --linux AppImage",
+    "dist:windows": "npm run clean:release && npm run build && electron-builder --win nsis"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
@@ -52,8 +52,7 @@
     ],
     "linux": {
       "target": [
-        "AppImage",
-        "zip"
+        "AppImage"
       ],
       "category": "Game",
       "synopsis": "Planejador de produção para Evitania",
@@ -74,8 +73,7 @@
     },
     "win": {
       "target": [
-        "nsis",
-        "zip"
+        "nsis"
       ],
       "icon": "assets/app/icon.ico",
       "signtoolOptions": {
