@@ -29,10 +29,10 @@ jobs:
       contents: read
     steps:
       - name: Check out source
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
 
       - name: Set up Node.js
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
         with:
           node-version: 22
           cache: npm
@@ -60,7 +60,7 @@ jobs:
           WIN_CSC_KEY_PASSWORD: ${{ matrix.name == 'Windows' && secrets.WIN_CSC_KEY_PASSWORD || '' }}
 
       - name: Store application artifact
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
         with:
           name: ${{ matrix.artifact-name }}
           path: ${{ matrix.artifact-path }}
@@ -78,10 +78,10 @@ jobs:
       attestations: write
     steps:
       - name: Check out source
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
 
       - name: Download application artifacts
-        uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131
         with:
           path: release
           merge-multiple: true
@@ -90,7 +90,7 @@ jobs:
         run: node scripts/release-metadata.mjs
 
       - name: Attest application artifacts
-        uses: actions/attest-build-provenance@e8998f949152b193b063cb0ec769d69d929409be
+        uses: actions/attest-build-provenance@43d14bc2b83dec42d39ecae14e916627a18bb661
         with:
           subject-path: |
             release/*.AppImage
