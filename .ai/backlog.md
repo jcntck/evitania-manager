@@ -1,4 +1,4 @@
-## Backlog
+## Erros levantados da versão v0.2.3
 
 1. Possibilidade de criar os itens a partir de um de maior nivel, exemplo: criar um item de fundição, a partir de receita, um minerio a partir de fundição e etc.
 
@@ -15,3 +15,5 @@
 7. o tempo estimado está muito pequeno ele é uma das informações principais.
 
 8. A apresentação dos itens necessários pode ser apresentados em forma de arvores para ser visualmente mais organizado.
+
+9. Icone da distruibução linux não está funcionando
