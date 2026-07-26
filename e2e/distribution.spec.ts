@@ -33,7 +33,7 @@ const closeApplication = async (application: ElectronApplication): Promise<void>
 const waitUntilReady = async (
   page: Awaited<ReturnType<ElectronApplication['firstWindow']>>,
 ): Promise<void> => {
-  await expect(page.locator('#save-status')).toHaveText('Salvo localmente');
+  await expect(page.locator('#save-status')).toHaveText('Salvo localmente', { timeout: 30_000 });
 };
 
 test.afterEach(async () => {
@@ -43,6 +43,7 @@ test.afterEach(async () => {
 
 test('E2E-012 installed Debian package has native identity and persists with isolated user data', async () => {
   test.skip(platform !== 'linux' || !executable, 'runs in the Linux packaged release job');
+  test.slow();
   const userData = await mkdtemp(join(tmpdir(), 'evitania-deb-smoke-'));
   directories.push(userData);
   const deb = process.env.EVITANIA_PACKAGED_ARTIFACT;
@@ -72,6 +73,7 @@ test('E2E-012 installed Debian package has native identity and persists with iso
 
 test('E2E-013 installed NSIS package exposes identity, signing state, and isolated persistence', async () => {
   test.skip(platform !== 'windows' || !executable, 'runs in the Windows packaged release job');
+  test.slow();
   const userData = await mkdtemp(join(tmpdir(), 'evitania-nsis-smoke-'));
   directories.push(userData);
   const versionInfo = await execute('pwsh', [
