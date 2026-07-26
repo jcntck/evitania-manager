@@ -127,6 +127,8 @@ test('E2E-013 installed NSIS package exposes identity, signing state, and isolat
   await page.locator('[data-action="catalog-create"]').first().click();
   await page.locator('[name="name"]').fill('Persistência do instalador NSIS');
   await page.locator('[data-action="catalog-save"]').click();
+  await expect(page.locator('.catalog-card')
+    .filter({ hasText: 'Persistência do instalador NSIS' })).toBeVisible();
   await closeApplication(application);
   application = await launchInstalled(userData);
   page = await application.firstWindow();
