@@ -63,15 +63,13 @@ if (values.platform === 'linux') {
     `if ($null -eq $installerIcon -or $null -eq $executableIcon) { throw 'native icon missing' }`,
     `$installerSignature = Get-AuthenticodeSignature $installer.FullName`,
     `$executableSignature = Get-AuthenticodeSignature $executable.FullName`,
-    `[pscustomobject]@{`,
-    `  installerProduct=$installer.VersionInfo.ProductName;`,
-    `  executableProduct=$executable.VersionInfo.ProductName;`,
-    `  company=$executable.VersionInfo.CompanyName;`,
-    `  description=$executable.VersionInfo.FileDescription;`,
-    `  version=$executable.VersionInfo.ProductVersion;`,
-    `  installerSignature=$installerSignature.Status.ToString();`,
-    `  executableSignature=$executableSignature.Status.ToString()`,
-    `} | ConvertTo-Json -Compress`,
+    `[pscustomobject]@{ installerProduct=$installer.VersionInfo.ProductName; `
+      + `executableProduct=$executable.VersionInfo.ProductName; `
+      + `company=$executable.VersionInfo.CompanyName; `
+      + `description=$executable.VersionInfo.FileDescription; `
+      + `version=$executable.VersionInfo.ProductVersion; `
+      + `installerSignature=$installerSignature.Status.ToString(); `
+      + `executableSignature=$executableSignature.Status.ToString() } | ConvertTo-Json -Compress`,
   ].join('; ');
   const result = JSON.parse((await execute('powershell', ['-NoProfile', '-Command', script])).stdout);
   for (const [field, expected] of Object.entries({
