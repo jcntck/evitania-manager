@@ -66,7 +66,7 @@ test('E2E-013 installed NSIS package exposes identity, signing state, and isolat
   test.skip(platform !== 'windows' || !executable, 'runs in the Windows packaged release job');
   const userData = await mkdtemp(join(tmpdir(), 'evitania-nsis-smoke-'));
   directories.push(userData);
-  const versionInfo = await execute('powershell', [
+  const versionInfo = await execute('pwsh', [
     '-NoProfile',
     '-Command',
     `(Get-Item '${executable!.replaceAll("'", "''")}').VersionInfo | ConvertTo-Json -Compress`,

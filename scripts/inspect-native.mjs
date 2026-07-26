@@ -71,7 +71,7 @@ if (values.platform === 'linux') {
       + `installerSignature=$installerSignature.Status.ToString(); `
       + `executableSignature=$executableSignature.Status.ToString() } | ConvertTo-Json -Compress`,
   ].join('; ');
-  const result = JSON.parse((await execute('powershell', ['-NoProfile', '-Command', script])).stdout);
+  const result = JSON.parse((await execute('pwsh', ['-NoProfile', '-Command', script])).stdout);
   for (const [field, expected] of Object.entries({
     installerProduct: PRODUCT.name,
     executableProduct: PRODUCT.name,
