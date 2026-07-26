@@ -42,7 +42,11 @@ const git = {
     });
     return Boolean(remote.stdout.trim());
   },
-  createAnnotatedTag: (tag, message) => execute('git', ['tag', '-a', tag, '-m', message]),
+  createAnnotatedTag: (tag, message) => execute('git', [
+    '-c', 'user.name=github-actions[bot]',
+    '-c', 'user.email=41898282+github-actions[bot]@users.noreply.github.com',
+    'tag', '-a', tag, '-m', message,
+  ]),
   pushTagsAtomically: (tags) => execute('git', ['push', '--atomic', 'origin', ...tags.map((tag) => `refs/tags/${tag}`)]),
 };
 const provider = {
