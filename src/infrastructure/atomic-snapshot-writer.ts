@@ -51,6 +51,7 @@ export type AtomicSnapshotWriterOptions = {
   fileSystem?: AtomicFileSystem;
   createTemporaryId?: () => string;
   fault?: (stage: AtomicWriteStage) => void | Promise<void>;
+  platform?: NodeJS.Platform;
 };
 
 const errorReason = (error: unknown): string =>
@@ -60,11 +61,13 @@ export class AtomicSnapshotWriter {
   private readonly fileSystem: AtomicFileSystem;
   private readonly createTemporaryId: () => string;
   private readonly fault: (stage: AtomicWriteStage) => void | Promise<void>;
+  private readonly platform: NodeJS.Platform;
 
   constructor(options: AtomicSnapshotWriterOptions = {}) {
     this.fileSystem = options.fileSystem ?? nodeFileSystem;
     this.createTemporaryId = options.createTemporaryId ?? randomUUID;
     this.fault = options.fault ?? (() => undefined);
+    this.platform = options.platform ?? process.platform;
   }
 
   async write(input: {
@@ -144,6 +147,7 @@ export class AtomicSnapshotWriter {
   }
 
   private async syncDirectory(path: string): Promise<void> {
+    if (this.platform === 'win32') return;
     let handle: FileHandleBoundary | undefined;
     try {
       handle = await this.fileSystem.open(path, 'r');

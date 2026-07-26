@@ -3,7 +3,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, describe, expect, it } from 'vitest';
 import {
-  AtomicSnapshotWriter, type AtomicWriteStage,
+  AtomicSnapshotWriter, type AtomicFileSystem, type AtomicWriteStage,
 } from '../src/infrastructure/atomic-snapshot-writer';
 import {
   decodeStorageEnvelope, encodeStorageEnvelope,
@@ -74,5 +74,32 @@ describe('AtomicSnapshotWriter', () => {
     expect(decodeStorageEnvelope(await readFile(`${path}.backup`, 'utf8'))).toMatchObject({
       ok: true, value: { revision: 4 },
     });
+  });
+
+  it('skips unsupported directory fsync on Windows after flushing the snapshot file', async () => {
+    const openedPaths: string[] = [];
+    const fileSystem: AtomicFileSystem = {
+      mkdir: async () => undefined,
+      writeFile: async () => undefined,
+      copyFile: async () => undefined,
+      rename: async () => undefined,
+      unlink: async () => undefined,
+      open: async (path) => {
+        openedPaths.push(path);
+        return { sync: async () => undefined, close: async () => undefined };
+      },
+    };
+    const writer = new AtomicSnapshotWriter({
+      fileSystem,
+      platform: 'win32',
+      createTemporaryId: () => 'windows',
+    });
+
+    await expect(writer.write({
+      primaryPath: 'C:\\Evitania\\data.json',
+      contents: '{}',
+      rotateBackup: false,
+    })).resolves.toEqual({ ok: true });
+    expect(openedPaths).toEqual(['C:\\Evitania\\data.json.windows.tmp']);
   });
 });
