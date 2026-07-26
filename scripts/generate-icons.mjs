@@ -22,4 +22,4 @@ const pngBuffers = await Promise.all(sizes.map(async (size) => {
   return buffer;
 }));
 await writeFile(new URL('icon.png', outputDirectory), pngBuffers.at(-1));
-await writeFile(new URL('icon.ico', outputDirectory), await pngToIco(pngBuffers));
+await writeFile(new URL('icon.ico', outputDirectory), await pngToIco(pngBuffers.slice(0, -1)));
