@@ -1,5 +1,5 @@
 import { execFile } from 'node:child_process';
-import { mkdtemp, readFile, rm } from 'node:fs/promises';
+import { mkdtemp, readFile, readdir, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { promisify } from 'node:util';
@@ -32,8 +32,24 @@ const closeApplication = async (application: ElectronApplication): Promise<void>
 
 const waitUntilReady = async (
   page: Awaited<ReturnType<ElectronApplication['firstWindow']>>,
+  userData: string,
 ): Promise<void> => {
-  await expect(page.locator('#save-status')).toHaveText('Salvo localmente', { timeout: 30_000 });
+  try {
+    await expect(page.locator('#save-status')).toHaveText('Salvo localmente', { timeout: 30_000 });
+  } catch (error) {
+    const status = await page.locator('#save-status').textContent().catch(() => null);
+    const notice = await page.locator('#toast').textContent().catch(() => null);
+    const files = await readdir(userData, { recursive: true }).catch(() => []);
+    const diagnostics = await readFile(join(userData, 'diagnostics', 'events.jsonl'), 'utf8')
+      .catch(() => '');
+    throw new Error([
+      `Packaged app initialization failed: status=${JSON.stringify(status)}`,
+      `notice=${JSON.stringify(notice)}`,
+      `files=${JSON.stringify(files)}`,
+      `diagnostics=${JSON.stringify(diagnostics)}`,
+      error instanceof Error ? error.message : String(error),
+    ].join('; '));
+  }
 };
 
 test.afterEach(async () => {
@@ -57,7 +73,7 @@ test('E2E-012 installed Debian package has native identity and persists with iso
   }
   let application = await launchInstalled(userData);
   let page = await application.firstWindow();
-  await waitUntilReady(page);
+  await waitUntilReady(page, userData);
   await page.locator('[data-page="items"]').click();
   await page.locator('[data-action="catalog-create"]').first().click();
   await page.locator('[name="name"]').fill('Persistência do pacote Debian');
@@ -66,7 +82,7 @@ test('E2E-012 installed Debian package has native identity and persists with iso
   await closeApplication(application);
   application = await launchInstalled(userData);
   page = await application.firstWindow();
-  await waitUntilReady(page);
+  await waitUntilReady(page, userData);
   await page.locator('[data-page="items"]').click();
   await expect(page.locator('.catalog-card').filter({ hasText: 'Persistência do pacote Debian' })).toBeVisible();
 });
@@ -106,7 +122,7 @@ test('E2E-013 installed NSIS package exposes identity, signing state, and isolat
   })).resolves.toMatchObject({ signingStatus: 'signed', credentialSource: 'ci-environment' });
   let application = await launchInstalled(userData);
   let page = await application.firstWindow();
-  await waitUntilReady(page);
+  await waitUntilReady(page, userData);
   await page.locator('[data-page="items"]').click();
   await page.locator('[data-action="catalog-create"]').first().click();
   await page.locator('[name="name"]').fill('Persistência do instalador NSIS');
@@ -114,7 +130,7 @@ test('E2E-013 installed NSIS package exposes identity, signing state, and isolat
   await closeApplication(application);
   application = await launchInstalled(userData);
   page = await application.firstWindow();
-  await waitUntilReady(page);
+  await waitUntilReady(page, userData);
   await page.locator('[data-page="items"]').click();
   await expect(page.locator('.catalog-card').filter({ hasText: 'Persistência do instalador NSIS' })).toBeVisible();
 });
