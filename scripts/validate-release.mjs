@@ -1,5 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { validatePackageContract, validatePlatformEvidence } from './release-contract.mjs';
 
@@ -11,7 +12,7 @@ const { values } = parseArgs({
     package: { type: 'boolean', default: false },
   },
 });
-const rootDirectory = resolve(new URL('..', import.meta.url).pathname);
+const rootDirectory = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const packageJson = JSON.parse(await readFile(resolve(rootDirectory, 'package.json'), 'utf8'));
 const version = values.version ?? `v${packageJson.version}`;
 if (values.package) {

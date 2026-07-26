@@ -1,9 +1,10 @@
 import { spawn } from 'node:child_process';
 import { resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { runReleasePreflight } from './release-orchestrator.mjs';
 
 const version = process.argv[2];
-const rootDirectory = resolve(new URL('..', import.meta.url).pathname);
+const rootDirectory = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const run = (command, args, options = {}) => new Promise((resolveRun, rejectRun) => {
   const child = spawn(command, args, { cwd: rootDirectory, env: process.env, stdio: ['ignore', 'pipe', 'pipe'] });
   let stdout = '';

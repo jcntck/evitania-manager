@@ -1,6 +1,7 @@
 import { spawn } from 'node:child_process';
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { publishReleaseTopology } from './release-orchestrator.mjs';
 
@@ -11,7 +12,7 @@ const { values } = parseArgs({
     windows: { type: 'string', default: 'release/windows/publish' },
   },
 });
-const rootDirectory = resolve(new URL('..', import.meta.url).pathname);
+const rootDirectory = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const packageJson = JSON.parse(await readFile(resolve(rootDirectory, 'package.json'), 'utf8'));
 const execute = (command, args, { capture = false, allowFailure = false } = {}) =>
   new Promise((resolveRun, rejectRun) => {

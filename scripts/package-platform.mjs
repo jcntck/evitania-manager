@@ -1,5 +1,6 @@
 import { mkdir, readFile, rm } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { preparePlatformEvidence, validatePackageContract } from './release-contract.mjs';
 
@@ -12,7 +13,7 @@ const { values } = parseArgs({
 });
 const platform = values.platform;
 if (platform !== 'linux' && platform !== 'windows') throw new Error('--platform must be linux or windows');
-const rootDirectory = resolve(new URL('..', import.meta.url).pathname);
+const rootDirectory = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const packageJson = JSON.parse(await readFile(resolve(rootDirectory, 'package.json'), 'utf8'));
 const buildDirectory = resolve(values['build-directory'] ?? `release/${platform}/build`);
 const publishDirectory = resolve(values['publish-directory'] ?? `release/${platform}/publish`);
