@@ -77,15 +77,15 @@ describe('AtomicSnapshotWriter', () => {
   });
 
   it('skips unsupported directory fsync on Windows after flushing the snapshot file', async () => {
-    const openedPaths: string[] = [];
+    const openedFiles: Array<{ path: string; flags: string }> = [];
     const fileSystem: AtomicFileSystem = {
       mkdir: async () => undefined,
       writeFile: async () => undefined,
       copyFile: async () => undefined,
       rename: async () => undefined,
       unlink: async () => undefined,
-      open: async (path) => {
-        openedPaths.push(path);
+      open: async (path, flags) => {
+        openedFiles.push({ path, flags });
         return { sync: async () => undefined, close: async () => undefined };
       },
     };
@@ -100,6 +100,9 @@ describe('AtomicSnapshotWriter', () => {
       contents: '{}',
       rotateBackup: false,
     })).resolves.toEqual({ ok: true });
-    expect(openedPaths).toEqual(['C:\\Evitania\\data.json.windows.tmp']);
+    expect(openedFiles).toEqual([{
+      path: 'C:\\Evitania\\data.json.windows.tmp',
+      flags: 'r+',
+    }]);
   });
 });

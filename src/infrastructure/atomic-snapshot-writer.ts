@@ -138,7 +138,7 @@ export class AtomicSnapshotWriter {
   }
 
   private async flushFile(path: string): Promise<void> {
-    const handle = await this.fileSystem.open(path, 'r');
+    const handle = await this.fileSystem.open(path, 'r+');
     try {
       await handle.sync();
     } finally {
