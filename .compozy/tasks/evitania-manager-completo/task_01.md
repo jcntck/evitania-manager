@@ -1,5 +1,5 @@
 ---
-status: pending
+status: completed
 title: "Schema v2, migrations, seed, and revisioned repository"
 type: backend
 complexity: critical
@@ -36,16 +36,16 @@ consumed by every later domain, desktop, and renderer task.
 
 ## Subtasks
 
-- [ ] 1.1 Define current schema, storage envelope, snapshots, result types, and legacy fixtures.
-- [ ] 1.2 Deliver strict structural and full-domain validation for schema v2.
-- [ ] 1.3 Deliver the non-mutating v1→v2 migration and sequential migration registry.
-- [ ] 1.4 Deliver the fault-testable atomic writer, write serialization, and revision CAS.
-- [ ] 1.5 Refactor repository load, recovery, initialization, and save outcomes.
-- [ ] 1.6 Deliver the runtime seed loader and safe empty-workspace notice path.
-- [ ] 1.7 Deliver deterministic workbook-to-seed compilation and rejection reporting.
-- [ ] 1.8 Generate and package the validated seed and accepted seed assets.
-- [ ] 1.9 Add storage, migration, seed, recovery, restart, and concurrency fixtures.
-- [ ] 1.10 Implement every assigned unit and integration test.
+- [x] 1.1 Define current schema, storage envelope, snapshots, result types, and legacy fixtures.
+- [x] 1.2 Deliver strict structural and full-domain validation for schema v2.
+- [x] 1.3 Deliver the non-mutating v1→v2 migration and sequential migration registry.
+- [x] 1.4 Deliver the fault-testable atomic writer, write serialization, and revision CAS.
+- [x] 1.5 Refactor repository load, recovery, initialization, and save outcomes.
+- [x] 1.6 Deliver the runtime seed loader and safe empty-workspace notice path.
+- [x] 1.7 Deliver deterministic workbook-to-seed compilation and rejection reporting.
+- [x] 1.8 Generate and package the validated seed and accepted seed assets.
+- [x] 1.9 Add storage, migration, seed, recovery, restart, and concurrency fixtures.
+- [x] 1.10 Implement every assigned unit and integration test.
 
 ## Implementation Details
 
@@ -97,8 +97,8 @@ Files expected to be created include `src/infrastructure/storage-schema.ts`,
 
 Cases assigned from `_tests.md`; read every full definition before implementation.
 
-- [ ] UT-001, UT-002, UT-003, UT-004, UT-005, UT-006, UT-007, UT-008, UT-009 — envelope, atomicity, CAS, migration, seed, and corruption outcomes.
-- [ ] IT-001, IT-002, IT-003, IT-004, IT-005, IT-006, IT-010 — real filesystem restart/recovery/concurrency, workbook compilation, and v1 migration flows.
+- [x] UT-001, UT-002, UT-003, UT-004, UT-005, UT-006, UT-007, UT-008, UT-009 — envelope, atomicity, CAS, migration, seed, and corruption outcomes.
+- [x] IT-001, IT-002, IT-003, IT-004, IT-005, IT-006, IT-010 — real filesystem restart/recovery/concurrency, workbook compilation, and v1 migration flows.
 
 ## Success Criteria
 

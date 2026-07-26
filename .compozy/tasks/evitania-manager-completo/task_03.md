@@ -1,5 +1,5 @@
 ---
-status: pending
+status: completed
 title: "Planning engine, consolidation, estimates, and credits"
 type: backend
 complexity: critical
@@ -39,15 +39,15 @@ the planning performance contract.
 
 ## Subtasks
 
-- [ ] 3.1 Define immutable planning result, node, consolidated, source, estimate, limit, and diagnostic contracts.
-- [ ] 3.2 Deliver input indexing, objective validation, and stable priority ordering.
-- [ ] 3.3 Deliver recursive priority allocation with causal paths, overflow checks, branch diagnostics, and node limit.
-- [ ] 3.4 Deliver consolidation exclusively from objective trees with exact reconciliation.
-- [ ] 3.5 Deliver active-source resolution and missing/ambiguous/stale diagnostics.
-- [ ] 3.6 Deliver pure gathering, monster, boss, and smelting calculators.
-- [ ] 3.7 Deliver idempotent completion-credit creation and exact reversible undo.
-- [ ] 3.8 Deliver duration formatting and deterministic numeric/performance fixtures.
-- [ ] 3.9 Replace the legacy planner/results and implement every assigned test.
+- [x] 3.1 Define immutable planning result, node, consolidated, source, estimate, limit, and diagnostic contracts.
+- [x] 3.2 Deliver input indexing, objective validation, and stable priority ordering.
+- [x] 3.3 Deliver recursive priority allocation with causal paths, overflow checks, branch diagnostics, and node limit.
+- [x] 3.4 Deliver consolidation exclusively from objective trees with exact reconciliation.
+- [x] 3.5 Deliver active-source resolution and missing/ambiguous/stale diagnostics.
+- [x] 3.6 Deliver pure gathering, monster, boss, and smelting calculators.
+- [x] 3.7 Deliver idempotent completion-credit creation and exact reversible undo.
+- [x] 3.8 Deliver duration formatting and deterministic numeric/performance fixtures.
+- [x] 3.9 Replace the legacy planner/results and implement every assigned test.
 
 ## Implementation Details
 
@@ -99,8 +99,8 @@ unit/integration/performance fixtures.
 
 Cases assigned from `_tests.md`; read every full definition before implementation.
 
-- [ ] UT-022, UT-023, UT-024, UT-025, UT-026, UT-027, UT-028, UT-029, UT-030, UT-031, UT-032, UT-033, UT-034, UT-035, UT-036, UT-037, UT-038, UT-039, UT-040, UT-041, UT-051, UT-052 — objectives, allocation, trees, consolidation, diagnostics, sources, estimates, credits, formatting, and limits.
-- [ ] IT-011, IT-012, IT-021 — composed plan, repository-backed completion transaction, and scale/performance flow.
+- [x] UT-022, UT-023, UT-024, UT-025, UT-026, UT-027, UT-028, UT-029, UT-030, UT-031, UT-032, UT-033, UT-034, UT-035, UT-036, UT-037, UT-038, UT-039, UT-040, UT-041, UT-051, UT-052 — objectives, allocation, trees, consolidation, diagnostics, sources, estimates, credits, formatting, and limits.
+- [x] IT-011, IT-012, IT-021 — composed plan, repository-backed completion transaction, and scale/performance flow.
 
 ## Success Criteria
 

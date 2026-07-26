@@ -1,5 +1,5 @@
 ---
-status: pending
+status: completed
 title: "Catalog invariants, references, and production cycles"
 type: backend
 complexity: high
@@ -35,16 +35,16 @@ broken references, invalid quantities/rates, unsafe deletion, and mixed producti
 
 ## Subtasks
 
-- [ ] 2.1 Define candidate, mutation, reference, and catalog-error contracts.
-- [ ] 2.2 Deliver item and resource candidate validation and mutation.
-- [ ] 2.3 Deliver recipe/smelting component validation and mutation.
-- [ ] 2.4 Deliver canonical processing-duration parsing and normalization.
-- [ ] 2.5 Deliver monster/boss identity and drop validation.
-- [ ] 2.6 Deliver complete reverse-reference indexing and safe deletion outcomes.
-- [ ] 2.7 Deliver shared safe-integer stock validation.
-- [ ] 2.8 Deliver full mixed-product graph cycle detection with exact paths.
-- [ ] 2.9 Integrate valid candidates with schema-v2 validation and revisioned repository.
-- [ ] 2.10 Implement every assigned unit and integration test.
+- [x] 2.1 Define candidate, mutation, reference, and catalog-error contracts.
+- [x] 2.2 Deliver item and resource candidate validation and mutation.
+- [x] 2.3 Deliver recipe/smelting component validation and mutation.
+- [x] 2.4 Deliver canonical processing-duration parsing and normalization.
+- [x] 2.5 Deliver monster/boss identity and drop validation.
+- [x] 2.6 Deliver complete reverse-reference indexing and safe deletion outcomes.
+- [x] 2.7 Deliver shared safe-integer stock validation.
+- [x] 2.8 Deliver full mixed-product graph cycle detection with exact paths.
+- [x] 2.9 Integrate valid candidates with schema-v2 validation and revisioned repository.
+- [x] 2.10 Implement every assigned unit and integration test.
 
 ## Implementation Details
 
@@ -93,8 +93,8 @@ internal extractions, not new architectural layers.
 
 Cases assigned from `_tests.md`; read every full definition before implementation.
 
-- [ ] UT-013, UT-014, UT-015, UT-016, UT-017, UT-018, UT-019, UT-020, UT-021 — catalog candidates, duration, references, stock, and cycles.
-- [ ] IT-009 — candidate→catalog service→validator→repository CRUD and failure flow.
+- [x] UT-013, UT-014, UT-015, UT-016, UT-017, UT-018, UT-019, UT-020, UT-021 — catalog candidates, duration, references, stock, and cycles.
+- [x] IT-009 — candidate→catalog service→validator→repository CRUD and failure flow.
 
 ## Success Criteria
 

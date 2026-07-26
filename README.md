@@ -29,7 +29,10 @@ npm run dist:linux
 npm run dist:windows
 ```
 
-Linux gera um AppImage; Windows gera um instalador NSIS. A assinatura Windows depende das credenciais descritas em [docs/seguranca-windows.md](docs/seguranca-windows.md).
+Linux gera um pacote Debian e um ZIP que contém somente esse pacote. Windows gera
+um instalador NSIS e seu ZIP isolado. Cada plataforma recebe checksums, SBOM
+CycloneDX, inventário de proveniência e estado explícito de assinatura. Consulte
+[docs/seguranca-windows.md](docs/seguranca-windows.md).
 
 ## Release
 
@@ -39,4 +42,7 @@ Com o repositório limpo e as alterações já enviadas à branch principal:
 scripts/release.sh v1.0.0
 ```
 
-O script valida o projeto e cria a tag `v1.0.0`. Ela aciona o GitHub Actions para gerar uma única GitHub Release contendo os builds de Linux e Windows, checksums SHA-256, SBOM e atestações de procedência. Consulte o [guia de releases](docs/releases.md) para a configuração inicial e o passo a passo completo.
+O script executa o preflight sem enviar tags e inicia o workflow autorizado.
+Depois que os dois pacotes e suas evidências passam, o workflow publica
+`v1.0.0-linux`, `v1.0.0-windows` e por último `v1.0.0`, sem sobrescrita.
+Consulte o [guia de releases](docs/releases.md).

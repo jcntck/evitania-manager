@@ -1,0 +1,660 @@
+{
+  "version": 2,
+  "catalog": {
+    "items": [
+      {
+        "id": "0048b681-56b9-5e13-8853-6cb1dcd60ac6",
+        "name": "Combustível sólido"
+      },
+      {
+        "id": "007382b4-3de4-5aa2-bbea-5cdf7f5580da",
+        "name": "Ponta de Lança"
+      },
+      {
+        "id": "0113445b-a604-5eea-bc0b-1cd007f578b6",
+        "name": "Boneca de fantasma de gelo"
+      },
+      {
+        "id": "01f406bc-244b-5ac7-819b-54c90df30dd7",
+        "name": "Ectoplasma"
+      },
+      {
+        "id": "031e0d16-7c78-55d0-bc8f-566cc477543f",
+        "name": "Essência de fogo"
+      },
+      {
+        "id": "03840a19-6602-5afa-ad85-63ee17b7c908",
+        "name": "Geodo Carmesim"
+      },
+      {
+        "id": "07a832ed-94cd-5878-ba48-761be03c0964",
+        "name": "Relógio de bolso"
+      },
+      {
+        "id": "07c3033a-0b48-52a1-bdae-3c0339874b71",
+        "name": "Ampulheta de 1h"
+      },
+      {
+        "id": "08ea9d6b-1aed-586c-a946-b757c71c6927",
+        "name": "Flor da morte"
+      },
+      {
+        "id": "0db34732-7928-5084-a861-55c5ae74e5b5",
+        "name": "Runa KI"
+      },
+      {
+        "id": "0e72712f-8471-5c2f-9fac-07ec5dabb07b",
+        "name": "Essência Solar"
+      },
+      {
+        "id": "10e89e4a-b18d-55c4-abe5-89b41daecd07",
+        "name": "Chadcoal"
+      },
+      {
+        "id": "12c91b25-631b-549c-98c3-db7533ce6a1a",
+        "name": "Chroma Laranja"
+      },
+      {
+        "id": "1343659b-76c0-59c1-974f-0c8a44c01d50",
+        "name": "Estrela de Bandiff"
+      },
+      {
+        "id": "1852ac28-7c30-5da5-8856-179a27fa1415",
+        "name": "Pedra de teleporte"
+      },
+      {
+        "id": "1a8e86b7-7dfc-5423-b8a4-349c8c072fb4",
+        "name": "Minério de Cobra"
+      },
+      {
+        "id": "1b97f72d-62f7-5414-838f-93110f741cc5",
+        "name": "Runa HAS"
+      },
+      {
+        "id": "1c7d6ca5-3c28-516b-a8f3-ee04f84b4e5b",
+        "name": "Pedra de Gélida II"
+      },
+      {
+        "id": "1f5ff91f-b2b0-50eb-9fa7-33c649a305d0",
+        "name": "Mammoth bitusk"
+      },
+      {
+        "id": "2034891b-1030-5f37-b8bf-2ce0169b80b4",
+        "name": "Blocos de Construção do portão"
+      },
+      {
+        "id": "24d7b427-cad7-5e99-9f18-c024692aa367",
+        "name": "Blue essence"
+      },
+      {
+        "id": "251f2861-5464-52fd-82e6-9f4ae0c6c223",
+        "name": "Pedra de Gélida I"
+      },
+      {
+        "id": "25d7fe46-791e-5554-8543-e3bd0438888d",
+        "name": "Fire essence"
+      },
+      {
+        "id": "2759fe34-4c02-52bb-9513-2420725bbd91",
+        "name": "Stoney Mcstoneface"
+      },
+      {
+        "id": "2e911c3d-05e0-5e8d-a34c-ac6a69d2e185",
+        "name": "Noz"
+      },
+      {
+        "id": "31be26cb-638a-595d-8551-73a0741fa893",
+        "name": "Mini Plants"
+      },
+      {
+        "id": "3477cf7c-1ad7-546f-9cb4-f454a398dae6",
+        "name": "Barra de Aço"
+      },
+      {
+        "id": "360e6455-e908-5764-9719-36606ab068f8",
+        "name": "Pele peluda"
+      },
+      {
+        "id": "3912273a-fed6-5e8e-b1cf-7330b69043fa",
+        "name": "Cryolite"
+      },
+      {
+        "id": "398c963e-45de-59bf-915c-ee893540efd4",
+        "name": "Pink essence"
+      },
+      {
+        "id": "3a28ab7b-3b0f-5aba-981e-628a02a1fbac",
+        "name": "Fruit"
+      },
+      {
+        "id": "3a58d7c4-24f5-58df-a2ea-3878316f539d",
+        "name": "Iron bar"
+      },
+      {
+        "id": "3bb214ce-d58a-5978-87be-0dfc3531111c",
+        "name": "Icy Stone I"
+      },
+      {
+        "id": "3c8c0160-0cb0-5135-ba57-f5cf8d5d0712",
+        "name": "Fez fez"
+      },
+      {
+        "id": "3d867843-594f-5921-84bb-261abb265824",
+        "name": "D20 Dice"
+      },
+      {
+        "id": "3d95c791-5e39-553a-a242-fe7a155cf4fa",
+        "name": "Minério de Criolíta"
+      },
+      {
+        "id": "3e3c51dc-2cf5-52fa-b5a3-55d626275124",
+        "name": "Jötunn Eye"
+      },
+      {
+        "id": "40284570-544d-5f48-8860-b305665c0e6d",
+        "name": "Barra de ferro"
+      },
+      {
+        "id": "4244aa44-3751-5acd-b74b-ca3b895fed84",
+        "name": "Cactus"
+      },
+      {
+        "id": "46ab1baa-e612-5438-928b-014d557ff9be",
+        "name": "Steel bar"
+      },
+      {
+        "id": "491ea169-38c4-5670-ad1b-ab43e1027b8b",
+        "name": "Pena Amarela"
+      },
+      {
+        "id": "4d89c588-e804-5f4f-8ac6-4cfaf81fc9ba",
+        "name": "Amuleto do chefe"
+      },
+      {
+        "id": "4e1a4a50-26f8-5129-92ee-2d7a5146b228",
+        "name": "Furstring"
+      },
+      {
+        "id": "4e7d35e3-1f2c-5106-81ae-632e2ef2e9cf",
+        "name": "Weird page"
+      },
+      {
+        "id": "4f19fa38-39b0-5f3f-9691-bc9731640f8d",
+        "name": "yellow feather"
+      },
+      {
+        "id": "501e7d98-17ab-562c-a847-e29379522741",
+        "name": "Pet Seixo"
+      },
+      {
+        "id": "50f532f7-8ea9-5caf-8627-2295a07fd04c",
+        "name": "Chave Gramínea I"
+      },
+      {
+        "id": "5217816d-38cf-592f-852d-c8af4ed8db18",
+        "name": "Alma de Jötunn"
+      },
+      {
+        "id": "52dceeda-8c2f-5290-a7d0-81258af6e20d",
+        "name": "Wolf fang"
+      },
+      {
+        "id": "57d0eb11-ad4e-5205-9fa9-87c82ea43011",
+        "name": "Sunstone bar"
+      },
+      {
+        "id": "58833589-a12f-52c1-9c6c-17d86c2292e8",
+        "name": "Leaf"
+      },
+      {
+        "id": "58bc8f1f-e0f2-5aac-a914-165f82c795cf",
+        "name": "Thread"
+      },
+      {
+        "id": "590074fc-d741-5e50-b34c-c96301f50cb0",
+        "name": "Elmo do Elmo"
+      },
+      {
+        "id": "599d3fef-4a34-50b8-b67d-3eceb2eeb050",
+        "name": "Perfect aether crystal"
+      },
+      {
+        "id": "5bb868ec-1862-5775-9c47-edc3e6a66451",
+        "name": "Tronco de Freixo"
+      },
+      {
+        "id": "5d1efd9a-75a7-5f6a-af4d-5a55d7e7356e",
+        "name": "Norse essence"
+      },
+      {
+        "id": "5e6601f5-6205-5d26-bdcd-ecf08a29b322",
+        "name": "Thorium bar"
+      },
+      {
+        "id": "603d0128-7325-51d8-8e10-ddefee7e5bc6",
+        "name": "Olho de Jötunn"
+      },
+      {
+        "id": "60e025eb-12bf-5d61-a3b7-41b536a83a03",
+        "name": "Cryolite ore"
+      },
+      {
+        "id": "62fb723d-c7b0-5371-a504-60091ca4b649",
+        "name": "Tronco de Pyrewood"
+      },
+      {
+        "id": "630ee87e-0ef5-5397-8bc8-3ddb74f22c6e",
+        "name": "Bandiff star"
+      },
+      {
+        "id": "65ac8420-a035-5a4b-85d1-9e1199307a7b",
+        "name": "Bumerangue de Canguru"
+      },
+      {
+        "id": "690ea024-c6bc-5e65-acde-ff954df2f9b4",
+        "name": "Crab claw"
+      },
+      {
+        "id": "6af2551e-e542-5ca2-bc9a-05411a5bf312",
+        "name": "Ash log"
+      },
+      {
+        "id": "6ba60a16-a66b-52f2-9139-cbad845f8b3e",
+        "name": "Pedra de aprimoramento III"
+      },
+      {
+        "id": "6d962060-2198-5f37-ba68-e7a93925220c",
+        "name": "Runa WOM"
+      },
+      {
+        "id": "6ec95030-70b5-58ee-957d-713bccd65c33",
+        "name": "Pet Espírito da Folha"
+      },
+      {
+        "id": "700c9f1b-10a6-5ae1-925c-cf5e41d733fb",
+        "name": "Pó de Morcego"
+      },
+      {
+        "id": "7256a9db-1e23-5834-bbf3-f9c6b5da052f",
+        "name": "Essência Rosa"
+      },
+      {
+        "id": "741abdf4-e936-5b09-9037-0573175ade7b",
+        "name": "Vidro levemente danificado"
+      },
+      {
+        "id": "764e591a-2368-5bd3-a18a-474352a23322",
+        "name": "Pedra Gramínea II"
+      },
+      {
+        "id": "76777be8-7a82-5ced-9a33-15e0879104bb",
+        "name": "Amuleto Nórdico"
+      },
+      {
+        "id": "7c75dae8-f05a-58ea-bdd5-835c5ecf52d8",
+        "name": "Agulhas gélidas"
+      },
+      {
+        "id": "7e087668-c65c-59d6-83c3-59685b6c5238",
+        "name": "Bola de Cocô"
+      },
+      {
+        "id": "8157a732-e5a4-59e0-82e9-b951142f6c74",
+        "name": "Fragmentos de cristal de Étein"
+      },
+      {
+        "id": "81f9c5f3-f5e2-50cb-a355-b56bfcdc880b",
+        "name": "Kangaroo Boomerang"
+      },
+      {
+        "id": "835c5214-7286-5a85-8459-a2e9927e5b13",
+        "name": "Barra de pedra solar"
+      },
+      {
+        "id": "87bb6c50-a0d3-504a-b23e-8db39078d197",
+        "name": "Runa GOR"
+      },
+      {
+        "id": "892f62f8-3a40-5bcd-9268-a4e8b05575f1",
+        "name": "Ídolo Troll"
+      },
+      {
+        "id": "89554353-360c-5004-bf9b-c204b63a4457",
+        "name": "Pedra Gramínea I"
+      },
+      {
+        "id": "8d190bff-51b5-511f-90a1-35557ffd1dad",
+        "name": "Vela"
+      },
+      {
+        "id": "8dfec421-b4c5-5d88-8beb-c27c1b4522ae",
+        "name": "Essência Nórdica"
+      },
+      {
+        "id": "8fa37cbe-3590-525a-ae1d-facc58442e53",
+        "name": "Pet Livro estranho"
+      },
+      {
+        "id": "92554bd0-d84e-5516-ab0f-063847063a19",
+        "name": "Minério de Tório"
+      },
+      {
+        "id": "92b7c10d-4f50-5d9b-ba6b-0186e5fe8928",
+        "name": "Chave de Gélida I"
+      },
+      {
+        "id": "934bb5cf-ed92-50aa-bc29-941f3d68a412",
+        "name": "Alma de mamute"
+      },
+      {
+        "id": "939ab105-5740-5165-a055-fd9a76d60d1e",
+        "name": "Goar log"
+      },
+      {
+        "id": "9645dfe3-57c5-5f33-83ca-9951c283cffa",
+        "name": "Bronze bar"
+      },
+      {
+        "id": "9a7262e5-d044-5c87-a8e6-fcd8d425f256",
+        "name": "Ferrão de Beetleman"
+      },
+      {
+        "id": "9b7ee4c4-1e8e-591b-9b69-7b8960a01e37",
+        "name": "Presa de Mamute"
+      },
+      {
+        "id": "9e595087-3d7b-5a24-884d-d5b31b4f3e90",
+        "name": "Ectoplasm"
+      },
+      {
+        "id": "9f13d442-48ad-55e6-b8e3-673948df5e99",
+        "name": "Essência Vermelha"
+      },
+      {
+        "id": "9f74820e-55ec-5ce5-ad30-486387f83fb3",
+        "name": "Alma do dragão"
+      },
+      {
+        "id": "a07ecfdf-6cc1-565f-8b39-4d24c9b0c184",
+        "name": "The Crab's pickaxe"
+      },
+      {
+        "id": "a2d0e2b9-41d0-52ef-adbe-8cb110ae9edd",
+        "name": "Goak log"
+      },
+      {
+        "id": "a2ea41e4-ad82-56f6-9fba-38b185d4d9ac",
+        "name": "Black essence"
+      },
+      {
+        "id": "a3c84a72-a23d-5b26-b7ae-425652f18dae",
+        "name": "Copper bar"
+      },
+      {
+        "id": "a5d68d8f-eea7-5357-a854-ce441f9d7c66",
+        "name": "Poop ball"
+      },
+      {
+        "id": "a60900cf-2766-5575-b288-be76a7a9d101",
+        "name": "Boneca de Matryoshka"
+      },
+      {
+        "id": "ac574736-a8d7-5926-9d8e-2d16a2c6f39c",
+        "name": "Pyrewood log"
+      },
+      {
+        "id": "ac5b5d21-aa11-5e1c-9cdf-ea53b2bf13a9",
+        "name": "Dragon Horn"
+      },
+      {
+        "id": "ad1e9b2a-47fb-5e73-be03-16569362e7b5",
+        "name": "Seiva Azul"
+      },
+      {
+        "id": "af18142b-9eac-5c2d-8457-4a847dd70dec",
+        "name": "Artisan's frame"
+      },
+      {
+        "id": "b12e4cb5-0b6e-59d8-93e7-b6323d324ec5",
+        "name": "Núcleo Gélido"
+      },
+      {
+        "id": "b1a775d5-74fe-5871-af49-3f4987ff00b3",
+        "name": "Cenoura"
+      },
+      {
+        "id": "b1cc5db8-b395-5ae8-84f2-a2161182d44c",
+        "name": "Monóculo"
+      },
+      {
+        "id": "b1d47d30-957f-576f-a1b0-b8f8e78f7191",
+        "name": "Tronco de Madeira de Ferro"
+      },
+      {
+        "id": "b23748e7-45d2-5e7d-a1a1-c21f9b4306e7",
+        "name": "Essência Preta"
+      },
+      {
+        "id": "b4450340-16d0-5f8e-bf44-70af1b1fd765",
+        "name": "Picareta do caranguejo"
+      },
+      {
+        "id": "b83715c2-cf2c-5e11-a31f-5f9dcd1bc3a4",
+        "name": "Pedra Gélida II"
+      },
+      {
+        "id": "bd2f643b-fa22-5d80-be48-8400e5985316",
+        "name": "Furry fur"
+      },
+      {
+        "id": "beccb0dd-93bf-593b-90c7-db9adda02c3c",
+        "name": "Nut"
+      },
+      {
+        "id": "bf24006f-5927-55ce-92e6-abfdef773a45",
+        "name": "Grassy Stone I"
+      },
+      {
+        "id": "c03512b3-6aa4-541f-a833-86c18f5d419f",
+        "name": "Aether crystal shards"
+      },
+      {
+        "id": "c131cacc-5812-594b-bdda-07ac1ca51f64",
+        "name": "Tecido de Seda Rasgado"
+      },
+      {
+        "id": "c13a8048-277d-5c4d-8136-3fa6531cc9a0",
+        "name": "Anel do mamute"
+      },
+      {
+        "id": "c44e1edd-a138-5d84-b324-8fd7ae4de4af",
+        "name": "Favo de mel"
+      },
+      {
+        "id": "c6020198-1e24-58d7-bb66-0a23d77abeb6",
+        "name": "Straw"
+      },
+      {
+        "id": "c65bbece-7c13-5aa6-be91-cbcfd22d6fdf",
+        "name": "Cacto"
+      },
+      {
+        "id": "c77b5e12-af98-57ae-a861-67551af28ad7",
+        "name": "Essência azul"
+      },
+      {
+        "id": "c7e95557-b274-551d-9233-45eb5aff304f",
+        "name": "Fruta"
+      },
+      {
+        "id": "cab1a3ef-bebf-5bdc-b271-1a2d71bcded4",
+        "name": "Carne de Javali"
+      },
+      {
+        "id": "cdd14bd1-be4a-5fe7-871e-1ef619b3aea2",
+        "name": "Pet: Fantasminha"
+      },
+      {
+        "id": "cec0210c-d086-5cf9-9a50-edb335261371",
+        "name": "Minério de Ferro"
+      },
+      {
+        "id": "d0736527-5f25-5e44-8205-cc1228be4c78",
+        "name": "Candle"
+      },
+      {
+        "id": "d5243b21-d8ab-51af-bc66-c1fdc9445510",
+        "name": "Carta"
+      },
+      {
+        "id": "d5dd2a02-e8fc-55b2-9b22-d63b865bed51",
+        "name": "Perfect norse essence"
+      },
+      {
+        "id": "d6c23192-c5fc-57e9-a666-6b10ead8ac9c",
+        "name": "Pet Snek"
+      },
+      {
+        "id": "d777122a-3f47-5341-9eaf-34f23b9cde46",
+        "name": "Torn silk fabric"
+      },
+      {
+        "id": "d9db8566-8083-56d7-a44f-aeb6e003d5c3",
+        "name": "Crytallized Yellow substance"
+      },
+      {
+        "id": "d9eba0c1-8a1a-569b-b363-7726418aaf09",
+        "name": "Runa RYS"
+      },
+      {
+        "id": "db0b1ca8-0470-5ce2-8221-7cdcbd1a35b5",
+        "name": "Pet Floco de Neve"
+      },
+      {
+        "id": "dbf8acf5-9165-503f-b639-be435c5ad1ba",
+        "name": "Pena de Serpente"
+      },
+      {
+        "id": "dc018bc1-c35a-5ce5-95d2-7d6d9d80fd0a",
+        "name": "Mini plantas"
+      },
+      {
+        "id": "dcc7a061-1ac5-5ae1-ad4a-d73c2e435b50",
+        "name": "Garra de Caranguejo"
+      },
+      {
+        "id": "dd7f495e-1f39-59a5-99ab-f6afd303ef35",
+        "name": "Beetleman sting"
+      },
+      {
+        "id": "de317681-3f51-598d-b087-6111b5470962",
+        "name": "Geodo Azul"
+      },
+      {
+        "id": "e0eceb39-d77f-50cb-8e6f-89eba8b73739",
+        "name": "Chifre de Maevath"
+      },
+      {
+        "id": "e1787d39-e947-5337-96cd-e4f5424b8bed",
+        "name": "Comb. Sólido"
+      },
+      {
+        "id": "e1b3dc0d-66dc-55cf-8f3e-4a4d4fb416d0",
+        "name": "Crystallized blue substance"
+      },
+      {
+        "id": "e2045834-1767-522c-b797-0fe47835f069",
+        "name": "Dado D20"
+      },
+      {
+        "id": "e3b47d6f-edcc-59f4-887d-0ae9f6a581f8",
+        "name": "Tronco de Palmeira"
+      },
+      {
+        "id": "e4dde183-80ee-59b6-9ea5-6719d9dfe0e3",
+        "name": "Red essence"
+      },
+      {
+        "id": "e6833154-a45d-511f-88b1-b2f739083fff",
+        "name": "Pedra McPedrafface"
+      },
+      {
+        "id": "e6986514-6117-5ee3-9598-f0446b1a4b37",
+        "name": "Death's flower"
+      },
+      {
+        "id": "e74a4e13-27ad-5fc0-9be0-b02e547752d6",
+        "name": "Carrot"
+      },
+      {
+        "id": "e9f83514-f98c-521c-ace6-250165e113db",
+        "name": "Página estranha"
+      },
+      {
+        "id": "ebe06222-24fa-5c2f-8c30-a6e1d84dc854",
+        "name": "Minério de Pedra Solar"
+      },
+      {
+        "id": "f082e02b-8234-5b3c-8442-87e5b7aef1f3",
+        "name": "Seiva Carmesim"
+      },
+      {
+        "id": "f15a9517-ff8d-5c57-9d28-2898c604130c",
+        "name": "Perfect silk fabric"
+      },
+      {
+        "id": "f23da121-6f94-5b63-b7e7-4ee92b1a7ce6",
+        "name": "Perfect fur"
+      },
+      {
+        "id": "f55dac57-5007-5514-be8d-04b0ec6229f8",
+        "name": "Palm Tree log"
+      },
+      {
+        "id": "f8b39db7-f53d-5daa-ba5f-041e956c1cae",
+        "name": "Chifre de Dragão"
+      },
+      {
+        "id": "fa9e81d9-b119-58a2-9b57-fb0d95bed83a",
+        "name": "Pedra de Aprimoramento II"
+      },
+      {
+        "id": "fb269add-02ab-586a-889b-49cfd7ba0a84",
+        "name": "Honeycomb"
+      },
+      {
+        "id": "fbd03b49-a832-50ea-93cc-7159c28c5959",
+        "name": "Helmet helmet"
+      },
+      {
+        "id": "fbe3db74-ee19-5106-9e79-6b8cd372bfff",
+        "name": "Folha"
+      },
+      {
+        "id": "fc1ab354-35d8-5bff-9a48-2cfc72fc755a",
+        "name": "Pedra de aprimoramento I"
+      },
+      {
+        "id": "fdc396bb-f75c-5971-ae64-b870089d5a71",
+        "name": "Óculos distintos"
+      },
+      {
+        "id": "feb680f2-b77b-5a07-99e3-acfa2344ff77",
+        "name": "Presa de lobo"
+      }
+    ],
+    "resources": [],
+    "products": [],
+    "monsters": [],
+    "bosses": []
+  },
+  "planning": {
+    "goals": [],
+    "stock": {},
+    "gatherRates": {},
+    "killRates": {},
+    "lootQuantity": 0,
+    "selectedSources": {},
+    "completionCredits": []
+  }
+}

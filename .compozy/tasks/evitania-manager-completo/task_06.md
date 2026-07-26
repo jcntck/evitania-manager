@@ -1,5 +1,5 @@
 ---
-status: pending
+status: completed
 title: "Planner renderer, navigation, accessibility, and scale"
 type: frontend
 complexity: critical
@@ -39,16 +39,16 @@ and the packaged scale journey.
 
 ## Subtasks
 
-- [ ] 6.1 Deliver ordered modular navigation, active state, responsive layout, and keyboard behavior.
-- [ ] 6.2 Deliver objective creation/edit/removal/completion and accessible priority ordering.
-- [ ] 6.3 Deliver stable switching between per-objective trees and consolidated work.
-- [ ] 6.4 Deliver semantic collapsible trees with allocation, needs, causal paths, and diagnostics.
-- [ ] 6.5 Deliver scalable consolidated search/list with stock, completion credit, and exact undo.
-- [ ] 6.6 Deliver persistent source/rate/loot controls and estimate presentation.
-- [ ] 6.7 Deliver explicit empty/complete/remaining/unresolved/limit states and visual hierarchy.
-- [ ] 6.8 Complete responsive accessibility, focus, long-content, and keyboard-only journeys.
-- [ ] 6.9 Integrate planner actions with AppStore serialized persistence without domain-rule duplication.
-- [ ] 6.10 Implement every assigned DOM/E2E and packaged scale journey.
+- [x] 6.1 Deliver ordered modular navigation, active state, responsive layout, and keyboard behavior.
+- [x] 6.2 Deliver objective creation/edit/removal/completion and accessible priority ordering.
+- [x] 6.3 Deliver stable switching between per-objective trees and consolidated work.
+- [x] 6.4 Deliver semantic collapsible trees with allocation, needs, causal paths, and diagnostics.
+- [x] 6.5 Deliver scalable consolidated search/list with stock, completion credit, and exact undo.
+- [x] 6.6 Deliver persistent source/rate/loot controls and estimate presentation.
+- [x] 6.7 Deliver explicit empty/complete/remaining/unresolved/limit states and visual hierarchy.
+- [x] 6.8 Complete responsive accessibility, focus, long-content, and keyboard-only journeys.
+- [x] 6.9 Integrate planner actions with AppStore serialized persistence without domain-rule duplication.
+- [x] 6.10 Implement every assigned DOM/E2E and packaged scale journey.
 
 ## Implementation Details
 
@@ -99,8 +99,8 @@ Playwright fixtures.
 
 Cases assigned from `_tests.md`; read every full definition before implementation.
 
-- [ ] UT-046, UT-047 — explicit renderer states and semantic keyboard/focus/non-color behavior.
-- [ ] E2E-001, E2E-007, E2E-008, E2E-009, E2E-011 — first-use persistence, full planner, stock/credits, accessibility, and packaged scale journeys.
+- [x] UT-046, UT-047 — explicit renderer states and semantic keyboard/focus/non-color behavior.
+- [x] E2E-001, E2E-007, E2E-008, E2E-009, E2E-011 — first-use persistence, full planner, stock/credits, accessibility, and packaged scale journeys.
 
 ## Success Criteria
 

@@ -1,12 +1,18 @@
 import { contextBridge, ipcRenderer } from 'electron';
-import type { AppData, EntityCategory } from '../shared/domain';
-import type { DesktopApi } from '../shared/desktop-api';
+import type { DESKTOP_CHANNELS, DesktopApi } from '../shared/desktop-api';
 
-const desktopApi: DesktopApi = {
-  load: () => ipcRenderer.invoke('app:load') as Promise<AppData>,
-  save: (data: AppData) => ipcRenderer.invoke('app:save', data) as Promise<void>,
-  selectImage: (category: EntityCategory) => ipcRenderer.invoke('image:select', category) as Promise<string | null>,
-  openDataFolder: () => ipcRenderer.invoke('folder:open') as Promise<void>,
-};
+const channels = {
+  load: 'app:load',
+  save: 'app:save',
+  importImage: 'image:import',
+  openDataDirectory: 'folder:open',
+} as const satisfies typeof DESKTOP_CHANNELS;
+
+const desktopApi: DesktopApi = Object.freeze({
+  load: () => ipcRenderer.invoke(channels.load),
+  save: (input) => ipcRenderer.invoke(channels.save, input),
+  importImage: (input) => ipcRenderer.invoke(channels.importImage, input),
+  openDataDirectory: () => ipcRenderer.invoke(channels.openDataDirectory),
+});
 
 contextBridge.exposeInMainWorld('desktopApi', desktopApi);

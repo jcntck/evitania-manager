@@ -1,5 +1,5 @@
 ---
-status: pending
+status: completed
 title: "Desktop trust boundary, managed images, IPC, and application store"
 type: backend
 complexity: critical
@@ -39,16 +39,16 @@ bootstrap, save serialization, and user-recoverable revision conflicts.
 
 ## Subtasks
 
-- [ ] 4.1 Define closed desktop results, errors, versioned snapshot inputs, and frozen API.
-- [ ] 4.2 Deliver exact IPC schemas, allowlisted handlers, and typed controller mapping.
-- [ ] 4.3 Deliver single-instance secure bootstrap and constrained window/protocol lifecycle.
-- [ ] 4.4 Harden image validation/import, asset resolution, and atomic managed storage.
-- [ ] 4.5 Deliver post-commit reference analysis and safe orphan collection.
-- [ ] 4.6 Deliver data-directory service and actionable native failure mapping.
-- [ ] 4.7 Deliver immutable AppStore, actions/reducers, effect queue, conflict/reload, and operation guard.
-- [ ] 4.8 Deliver bounded redacted local diagnostics for desktop/storage/image events.
-- [ ] 4.9 Update preload/global renderer types and existing bootstrap consumers.
-- [ ] 4.10 Implement every assigned unit, integration, and E2E test.
+- [x] 4.1 Define closed desktop results, errors, versioned snapshot inputs, and frozen API.
+- [x] 4.2 Deliver exact IPC schemas, allowlisted handlers, and typed controller mapping.
+- [x] 4.3 Deliver single-instance secure bootstrap and constrained window/protocol lifecycle.
+- [x] 4.4 Harden image validation/import, asset resolution, and atomic managed storage.
+- [x] 4.5 Deliver post-commit reference analysis and safe orphan collection.
+- [x] 4.6 Deliver data-directory service and actionable native failure mapping.
+- [x] 4.7 Deliver immutable AppStore, actions/reducers, effect queue, conflict/reload, and operation guard.
+- [x] 4.8 Deliver bounded redacted local diagnostics for desktop/storage/image events.
+- [x] 4.9 Update preload/global renderer types and existing bootstrap consumers.
+- [x] 4.10 Implement every assigned unit, integration, and E2E test.
 
 ## Implementation Details
 
@@ -100,9 +100,9 @@ and focused unit/integration/E2E fixtures.
 
 Cases assigned from `_tests.md`; read every full definition before implementation.
 
-- [ ] UT-010, UT-011, UT-012, UT-045, UT-048, UT-049, UT-053, UT-054, UT-055, UT-056 — images, store/effects, native settings, IPC schemas/results, asset and folder security.
-- [ ] IT-007, IT-008, IT-013, IT-014, IT-015, IT-017 — real image/GC, IPC composition, repeated/ordered store actions, and folder behavior.
-- [ ] E2E-002, E2E-010 — disabled synchronization/data location and recoverable revision-conflict journeys.
+- [x] UT-010, UT-011, UT-012, UT-045, UT-048, UT-049, UT-053, UT-054, UT-055, UT-056 — images, store/effects, native settings, IPC schemas/results, asset and folder security.
+- [x] IT-007, IT-008, IT-013, IT-014, IT-015, IT-017 — real image/GC, IPC composition, repeated/ordered store actions, and folder behavior.
+- [x] E2E-002, E2E-010 — disabled synchronization/data location and recoverable revision-conflict journeys.
 
 ## Success Criteria
 

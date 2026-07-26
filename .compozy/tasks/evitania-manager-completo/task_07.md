@@ -1,5 +1,5 @@
 ---
-status: pending
+status: completed
 title: "Debian/NSIS distribution and verifiable releases"
 type: infra
 complexity: critical

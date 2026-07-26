@@ -1,13 +1,13 @@
 {
   "name": "evitania-manager",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Gerenciador de produção e coleta para Evitania",
   "author": "João Neto",
   "desktopName": "com.joaoneto.evitania.manager.desktop",
   "main": "dist/main/main/main.js",
   "scripts": {
     "clean": "node scripts/clean.mjs",
-    "clean:release": "node scripts/clean-release.mjs",
+    "clean:release": "node scripts/clean-release.mjs all",
     "build:main": "tsc -p tsconfig.main.json",
     "build:renderer": "vite build",
     "icons": "node scripts/generate-icons.mjs",
@@ -15,26 +15,37 @@
     "start": "npm run build && electron .",
     "dev": "npm run build && electron .",
     "typecheck": "tsc -p tsconfig.main.json --noEmit && tsc -p tsconfig.renderer.json --noEmit",
+    "seed:compile": "tsx scripts/compile-seed.mjs",
+    "seed:check": "tsx scripts/check-seed.mjs",
     "test": "vitest run",
+    "test:e2e": "npm run build && playwright test",
+    "test:release": "vitest run test/release-*.test.ts",
     "test:watch": "vitest",
-    "dist:linux": "npm run clean:release && npm run build && electron-builder --linux AppImage --publish never",
-    "dist:windows": "npm run clean:release && npm run build && electron-builder --win nsis --publish never"
+    "validate:package": "node scripts/validate-release.mjs --package",
+    "dist:linux": "node scripts/clean-release.mjs linux && npm run build && npm run validate:package && electron-builder --linux deb --publish never --config.directories.output=release/linux/build && node scripts/package-platform.mjs --platform linux && node scripts/inspect-native.mjs --platform linux --artifact release/linux/publish/Evitania-Manager-${npm_package_version}-amd64.deb --version ${npm_package_version}",
+    "dist:windows": "node scripts/clean-release.mjs windows && npm run build && npm run validate:package && electron-builder --win nsis --publish never --config.directories.output=release/windows/build && node scripts/package-platform.mjs --platform windows && node scripts/inspect-native.mjs --platform windows --artifact release/windows/publish/Evitania-Manager-%npm_package_version%-x64.exe --executable \"release/windows/build/win-unpacked/Evitania Manager.exe\" --version %npm_package_version%"
   },
   "devDependencies": {
+    "@playwright/test": "1.62.0",
     "@types/node": "^26.1.1",
     "electron": "^43.1.1",
     "electron-builder": "^26.15.3",
+    "happy-dom": "20.0.10",
     "png-to-ico": "^3.0.2",
-    "sharp": "^0.35.3",
+    "tsx": "4.20.6",
     "typescript": "^7.0.2",
     "vite": "^8.1.5",
-    "vitest": "^4.1.10"
+    "vitest": "^4.1.10",
+    "xlsx": "0.18.5"
   },
   "build": {
     "appId": "com.joaoneto.evitania.manager",
     "productName": "Evitania Manager",
     "copyright": "Copyright © João Neto",
     "asar": true,
+    "asarUnpack": [
+      "node_modules/@img/**/*"
+    ],
     "forceCodeSigning": false,
     "directories": {
       "output": "release",
@@ -48,28 +59,33 @@
       {
         "from": "assets/app/icon.png",
         "to": "icon.png"
+      },
+      {
+        "from": "assets/seed",
+        "to": "seed"
       }
     ],
     "linux": {
       "target": [
-        "AppImage"
+        "deb"
       ],
       "category": "Game",
-      "synopsis": "Planejador de produção para Evitania",
-      "description": "Gerencie itens, receitas, recursos, drops e planos de produção do jogo Evitania.",
+      "synopsis": "Gerenciador de produção e coleta para Evitania",
+      "description": "Gerenciador de produção e coleta para Evitania",
       "maintainer": "João Neto",
       "executableName": "evitania-manager",
       "vendor": "João Neto",
       "desktop": {
         "entry": {
           "Name": "Evitania Manager",
-          "Comment": "Planejador de produção para Evitania",
+          "Comment": "Gerenciador de produção e coleta para Evitania",
+          "Icon": "evitania-manager",
           "StartupWMClass": "com.joaoneto.evitania.manager"
         }
       },
       "syncDesktopName": true,
-      "icon": "assets/app/icon.png",
-      "artifactName": "${productName}-${version}-${arch}.${ext}"
+      "icon": "assets/app/icons",
+      "artifactName": "Evitania-Manager-${version}-${arch}.${ext}"
     },
     "win": {
       "target": [
@@ -79,13 +95,20 @@
       "signtoolOptions": {
         "publisherName": "João Neto"
       },
-      "artifactName": "${productName}-${version}-${arch}.${ext}"
+      "artifactName": "Evitania-Manager-${version}-${arch}.${ext}"
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
-      "createStartMenuShortcut": true
+      "createStartMenuShortcut": true,
+      "installerIcon": "assets/app/icon.ico",
+      "uninstallerIcon": "assets/app/icon.ico",
+      "installerHeaderIcon": "assets/app/icon.ico",
+      "shortcutName": "Evitania Manager"
     }
+  },
+  "dependencies": {
+    "sharp": "0.35.3"
   }
 }

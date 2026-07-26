@@ -114,6 +114,18 @@ A configuração final deverá:
 
 O `electron-builder` oferece integração para assinatura do Windows e permite impedir builds de produção sem assinatura por meio de `forceCodeSigning`. Consulte a [documentação de assinatura Windows do electron-builder](https://www.electron.build/docs/features/code-signing/code-signing-win/).
 
+## Contrato automatizado atual
+
+O workflow aceita assinatura somente pelas variáveis protegidas `WIN_CSC_LINK`
+e `WIN_CSC_KEY_PASSWORD`, fornecidas pelos secrets do GitHub Actions. O build
+falha se apenas uma estiver disponível. Nenhum script procura certificado, senha
+ou chave dentro do repositório.
+
+Quando ambas existem, `signing-status.json` publica `signed` com origem
+`ci-environment`. Quando não existem, publica `unsigned`. Esse estado explícito
+não dispensa checksum, SBOM, proveniência, inspeção de metadados ou smoke test do
+pacote instalado.
+
 ## Como verificar uma build assinada
 
 Em uma máquina Windows com o Windows SDK instalado, execute:

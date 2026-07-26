@@ -1,5 +1,5 @@
 ---
-status: pending
+status: completed
 title: "Modular catalog renderer and relational editing"
 type: frontend
 complexity: high
@@ -37,15 +37,15 @@ creation drafts, managed-image UX, deterministic focus, and large-catalog behavi
 
 ## Subtasks
 
-- [ ] 5.1 Establish native view-module/action contracts and reduce `app.ts` to composition.
-- [ ] 5.2 Integrate AppStore catalog actions, drafts, focus, notices, and save effects.
-- [ ] 5.3 Deliver list/editor modules for items, resources, recipes, smelting, monsters, and bosses.
-- [ ] 5.4 Deliver normalized relation search and accessible searchable picker.
-- [ ] 5.5 Deliver component multiselect with independent integer quantities.
-- [ ] 5.6 Deliver nested modal/draft stack, inline creation, and focus restoration.
-- [ ] 5.7 Deliver managed-image preview/replace/cancel/remove UX.
-- [ ] 5.8 Adapt semantic roots, dialogs, states, and responsive catalog styling.
-- [ ] 5.9 Establish the happy-dom renderer harness and implement every assigned test.
+- [x] 5.1 Establish native view-module/action contracts and reduce `app.ts` to composition.
+- [x] 5.2 Integrate AppStore catalog actions, drafts, focus, notices, and save effects.
+- [x] 5.3 Deliver list/editor modules for items, resources, recipes, smelting, monsters, and bosses.
+- [x] 5.4 Deliver normalized relation search and accessible searchable picker.
+- [x] 5.5 Deliver component multiselect with independent integer quantities.
+- [x] 5.6 Deliver nested modal/draft stack, inline creation, and focus restoration.
+- [x] 5.7 Deliver managed-image preview/replace/cancel/remove UX.
+- [x] 5.8 Adapt semantic roots, dialogs, states, and responsive catalog styling.
+- [x] 5.9 Establish the happy-dom renderer harness and implement every assigned test.
 
 ## Implementation Details
 
@@ -97,9 +97,9 @@ cohesive instead of creating artificial layers.
 
 Cases assigned from `_tests.md`; read every full definition before implementation.
 
-- [ ] UT-042, UT-043, UT-044, UT-050 — normalized relation search, multiselect, modal drafts/focus, and scale.
-- [ ] IT-016, IT-020 — mounted nested editor flow and 5,000-record relation/catalog behavior.
-- [ ] E2E-003, E2E-004, E2E-005, E2E-006 — managed images, catalog relationships, recipe/smelting cycles, and inline creation journeys.
+- [x] UT-042, UT-043, UT-044, UT-050 — normalized relation search, multiselect, modal drafts/focus, and scale.
+- [x] IT-016, IT-020 — mounted nested editor flow and 5,000-record relation/catalog behavior.
+- [x] E2E-003, E2E-004, E2E-005, E2E-006 — managed images, catalog relationships, recipe/smelting cycles, and inline creation journeys.
 
 ## Success Criteria
 

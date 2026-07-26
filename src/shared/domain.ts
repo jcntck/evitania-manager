@@ -1,6 +1,6 @@
 export type Act = 'I' | 'II' | 'III';
-export type ProductKind = 'recipe' | 'smeltery';
-export type EntityCategory = 'items' | 'resources' | 'recipes' | 'smeltery' | 'monsters' | 'bosses';
+export type ProductKind = 'recipe' | 'smelting';
+export type EntityCategory = 'items' | 'resources' | 'recipes' | 'smelting' | 'monsters' | 'bosses';
 
 export type Item = {
   id: string;
@@ -48,6 +48,15 @@ export type Goal = {
   productId: string;
   quantity: number;
   completed: boolean;
+  priority: number;
+};
+
+export type CompletionCredit = {
+  id: string;
+  entityId: string;
+  quantity: number;
+  createdAt: string;
+  reversedAt?: string;
 };
 
 export type Planning = {
@@ -56,8 +65,8 @@ export type Planning = {
   gatherRates: Record<string, number>;
   killRates: Record<string, number>;
   lootQuantity: number;
-  completedEntities: Record<string, number>;
   selectedSources: Record<string, string>;
+  completionCredits: CompletionCredit[];
 };
 
 export type Catalog = {
@@ -69,16 +78,25 @@ export type Catalog = {
 };
 
 export type AppData = {
-  version: 1;
+  version: 2;
   catalog: Catalog;
   planning: Planning;
 };
 
+export type Result<T, E> =
+  | { ok: true; value: T }
+  | { ok: false; error: E };
+
 export const createEmptyData = (): AppData => ({
-  version: 1,
+  version: 2,
   catalog: { items: [], resources: [], products: [], monsters: [], bosses: [] },
   planning: {
-    goals: [], stock: {}, gatherRates: {}, killRates: {}, lootQuantity: 0,
-    completedEntities: {}, selectedSources: {},
+    goals: [],
+    stock: {},
+    gatherRates: {},
+    killRates: {},
+    lootQuantity: 0,
+    selectedSources: {},
+    completionCredits: [],
   },
 });

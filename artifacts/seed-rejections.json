@@ -1,0 +1,2214 @@
+[
+  {
+    "sheet": "Receitas",
+    "row": 5,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Copper bar: 19 / Honeycomb: 4 / Stoney Mcstoneface: 20 / Leaf: 10 / Mini Plan..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 5,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Copper bar: 3 / Ash log: 1"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 5,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Bronze bar: 80 / Wolf fang: 50 / Fruit: 50 / Ectoplasm: 50 / Crab claw: 50"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 5,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Bronze bar: 3 / Goak log: 15"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 9,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Copper bar: 3 / Ash log: 1"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 9,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Copper bar: 10 / Stoney Mcstoneface: 10 / Death's flower (Boss): 1"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 9,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Bronze bar: 20 / Goar log: 15"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 13,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Ash log: 30 / Leaf: 10 / Death's flower (Boss): 1"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 13,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Ash log: 15 / Copper bar: 5 / Honeycomb: 10 / Death's flower (Boss): 1"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 19,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Iron bar: 84 / Candle: 50 / Weird page: 50 / D20 Dice: 50 / Fire essence: 50"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 19,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Iron bar: 20 / Pyrewood log: 15"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 19,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Blue essence: 1 / Red essence: 1 / Pink essence: 1 / Black essence: 1"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 19,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Pyrewood log: 50"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 23,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Iron bar: 3 / Pyrewood log: 15"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 23,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Steel bar: 15 / yellow feather: 2 / Thread: 1"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 23,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Straw: 1"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 27,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Steel bar: 15 / yellow feather: 2 / Thread: 1"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 27,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Pyrewood log: 30 / yellow feather: 2 / Thread: 1"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 31,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Pyrewood log: 30 / yellow feather: 2 / Thread: 1"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 37,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Barra de ferro: 84 | Essência de fogo: 50 | Dado D20: 50 | Página estranha: 5..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 37,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Barra de Aço: 100"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 49,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Barra de Aço: 20 / Death's flower (Boss): 2 / Dragon Horn (Boss): 2"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 55,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Crytallized Yellow substance: 102 / Perfect fur: 170 / Norse essence: 8 / Tho..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 55,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Crytallized Yellow substance: 40 / Norse essence: 5 / Thorium bar: 30 / Jötun..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 55,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Furry fur: 30"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 55,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Thorium bar: 100"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 59,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Crytallized Yellow substance: 40 / Norse essence: 5 / Thorium bar: 30 / Mammo..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 59,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Crytallized Yellow substance: 140 / Thorium bar: 98 / Artisan's frame: 7 / Pe..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 59,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Norse essence: 30"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 59,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Steel bar: 10 / Chadcoal: 100 / Helmet helmet: 5000"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 63,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Crytallized Yellow substance: 140 / Thorium bar: 98 / Artisan's frame: 7 / Pe..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 63,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Crytallized Yellow substance: 140 / Thorium bar: 98 / Furstring: 7 / Perfect ..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 63,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Perfect fur: 25 / Yellow feather: 100 / Nut: 5000"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 63,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Cryolite ore: 15 / Norse essence: 5 / Carrot: 5000"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 67,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Crytallized Yellow substance: 140 / Thorium bar: 98 / Cryolite: 3 / Perfect n..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 73,
+    "field": "components",
+    "reason": "invalid_component_quantity",
+    "redactedValue": "Serpent feather:: 35000"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 73,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Sunstone bar: 2670 / Bandiff star: 45000 / Fez fez: 40000 / Serpent feather::..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 73,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Sunstone bar: 200 / Palm Tree log: 15000 / Kangaroo Boomerang: 40000 / Perfec..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 73,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Torn silk fabric: 3 / Crystallized blue substance: 3"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 73,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Aether crystal shards: 2 / Crystallized blue substance: 6"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 77,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Sunstone bar: 600 / Palm tree log: 15000 / Cactus: 30000 / Perfect aether cry..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 77,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Sunstone bar: 860 / Beetleman sting: 70000 / Palm tree log: 100000 / Perfect ..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 77,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Sunstone bar: 200"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 81,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Sunstone bar: 290 / Beetleman sting: 70000 / Palm tree log: 600000 / Perfect ..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 81,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Sunstone bar: 600 / Beetleman Sting: 70000 / Palm tree log: 400000 / Perfect ..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 88,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Steel bar: 115200 / Grassy Stone I: 144000 / Death's Flower: 2000 / Dragon ho..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 88,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Thorium bar: 15000 / Icy Stone I: 300000 / Kangaroo boomerang: 450000 / Death..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 88,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Steel bar: 5000 / Grassy stone I: 5000"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 92,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Thorium bar: 15000 / Icy Stone I: 300000 / Cactus: 450000 / Death's Flower: 2..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 92,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Thorium bar: 15000 / Icy Stone I: 300000 / Poop ball: 450000 / Death's Flower..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 98,
+    "field": "components",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Set: sun inteiro/ set infinito (1)"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 98,
+    "field": "components",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Arma: sun/infinity (1)"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 98,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Set: sun inteiro/ set infinito (1) | Pedra Gramínea II: 60.000 | Núcleo Gélid..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 98,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Arma: sun/infinity (1) | Núcleo Gélido: 2 | Pedra Gélida II: 120.000 | Geodo ..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 98,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Barra de pedra solar: 100 | Pedra Gramínea II: 1.000 | Pedra de Aprimoramento..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 98,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Barra de pedra solar: 800 | Pedra Gramínea II: 2.000"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 102,
+    "field": "components",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Arma: sun/infinity (1)"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 102,
+    "field": "components",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Arma: sun/infinity (1)"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 102,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Arma: sun/infinity (1) | Núcleo Gélido: 2 | Pedra Gélida II: 120.000 | Geodo ..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 102,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Arma: sun/infinity (1) | Núcleo Gélido: 2 | Pedra Gélida II: 120.000 | Geodo ..."
+  },
+  {
+    "sheet": "Receitas",
+    "row": 102,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Flor da morte: 1000 | Picareta do caranguejo: 1000 | Chifre de Dragão: 1000"
+  },
+  {
+    "sheet": "Receitas",
+    "row": 102,
+    "field": "product",
+    "reason": "missing_product_identity",
+    "redactedValue": "Presa de Mamute: 1000 | Olho de Jötunn: 1000 | Chifre de Maevath: 1000"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 3,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Machado de Cobre"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 4,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Machado de Bronze"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 5,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Machado de Ferro"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 6,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Machado de Aço"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 7,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Machado de Tório"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 8,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Machado de Pedra Solar"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 9,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Machado de Aniversário"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 10,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Picareta de Cobre"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 11,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Picareta de Bronze"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 12,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Picareta de Ferro"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 13,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Picareta de Aço"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 14,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Picareta de Tório"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 15,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Picareta de Pedra Solar"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 16,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Picareta de Aniversário"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 17,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Adaga de Ossos"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 18,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Espada de Cobre"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 19,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Essence Sword"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 20,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Espada de Ferro"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 21,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Espada de Aço"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 22,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Espada de Natal"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 23,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Espada de Tório"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 24,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Espada do Infinito I"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 25,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Espada de Pedra Solar"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 26,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Espada do Infinito II"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 27,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Arco de Cobre"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 28,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Arco de Ferro"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 29,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Arco de Aço"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 30,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Arco de Natal"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 31,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Arco de Tório"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 32,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Arco do Infinito I"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 33,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Arco de Pedra Solar"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 34,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Arco do Infinito II"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 35,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cajado de Cobre"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 36,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cajado de Ferro"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 37,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cajado de Aço"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 38,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cajado de Natal"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 39,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cajado de Tório"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 40,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cajado do Infinito I"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 41,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cajado de Pedra Solar"
+  },
+  {
+    "sheet": "Registro de ArmamentoColetavel",
+    "row": 42,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cajado do Infinito II"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 3,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Elmo de Cobre"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 4,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Elmo de Bronze"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 5,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Elmo de Ferro"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 6,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Elmo de Aço"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 7,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Elmo de Tório"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 8,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Elmo Infinito I"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 9,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Elmo de Pedra Solar"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 10,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Elmo Infinito II"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 11,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Elmo do Halloween"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 12,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Elmo de Natal"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 13,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Peito de Cobre"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 14,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Peito de Bronze"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 15,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Peito de Ferro"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 16,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Peito de Aço"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 17,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Peito de Tório"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 18,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Peito do infinito I"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 19,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Peito de Pedra solar"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 20,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Peito do infinito II"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 21,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Camisa da Colheita"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 22,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Camisa de Natal"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 23,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Luva de Cobre"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 24,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Luva de Bronze"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 25,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Luva de Ferro"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 26,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Luva de Aço"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 27,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Luva de Tório"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 28,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Luva do infinito I"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 29,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Luva de Pedra Solar"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 30,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Luva do infinito II"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 31,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Luva da Colheita"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 32,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Luva de Natal"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 33,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Bota de Cobre"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 34,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Bota de Bronze"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 35,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Bota de Ferro"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 36,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Bota de Aço"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 37,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Bota de Tório"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 38,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Bota do infinito I"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 39,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Bota de Pedra Solar"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 40,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Bota do infinito II"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 41,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Botas de Verão"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 42,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Botas de Natal"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 43,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cinto do amor"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 44,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cinto de Ferro"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 45,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cinto de Natal"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 46,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cinto de 2°Aniversário"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 47,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cinto de Verão"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 48,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cinto da Colheita"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 49,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cinto Valentine"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 50,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Cinto Steam"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 51,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Amuleto do Boss"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 52,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Amuleto Nórdico"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 53,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Amuleto Valentine"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 54,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Pé de Coelho"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 55,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Anel de STR"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 56,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Anel da Torre"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 57,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Anel do Mamute"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 58,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Anel Ashen"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 59,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Anel de Cenoura"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 60,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Anel do Halloween"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 61,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Anel da Steam"
+  },
+  {
+    "sheet": "Registro de Equipamentos",
+    "row": 62,
+    "field": "row",
+    "reason": "unsupported_record_shape",
+    "redactedValue": "Anel do Mimico"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 3,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 3,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 4,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 4,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 5,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 5,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 6,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 6,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 7,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 7,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 8,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 8,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 9,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 9,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 10,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 10,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 11,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 11,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 12,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 12,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 13,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 13,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 14,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 14,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 15,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 15,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 16,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 16,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Pet: Beeb 1/5.000.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 17,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 17,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: NIL 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 18,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 18,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: NIL 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 19,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 19,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: NIL 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 20,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 20,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: NIL 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 21,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 21,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: FUS 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 22,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 22,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: FUS 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 23,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 23,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: FUS 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 24,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 24,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: FUS 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 25,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 25,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: MU 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 26,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 26,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: MU 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 27,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 27,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: MU 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 28,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 28,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Runa: MU 1/30000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 29,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 30,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 31,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 32,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 33,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 34,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 35,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 36,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 37,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 37,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "~ Sem informações."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 38,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 38,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "~ Sem informações."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 39,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 39,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "~ Sem informações."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 40,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 40,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "~ Sem informações."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 44,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 45,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 46,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 47,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 48,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 49,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 50,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 61,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 61,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Geodo Carmesim: / 200.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 62,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 62,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Geodo Carmesim: / 200.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 63,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 63,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "Geodo Carmesim: / 200.000"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 64,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 65,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 66,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 67,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 68,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 69,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 70,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 72,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 73,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 74,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 75,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 76,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 76,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "~ Sem informações"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 78,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 78,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +3 🪙 Tier 1: +4 🪙 Tier 2: +5 🪙 Tier 3: +6"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 79,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 79,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +3 🪙 Tier 1: +4 🪙 Tier 2: +5 🪙 Tier 3: +6"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 80,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 80,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +8 🪙 Tier 1: +9 🪙 Tier 2: +10 🪙 Tier 3: +11"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 81,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 81,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +8 🪙 Tier 1: +9 🪙 Tier 2: +10 🪙 Tier 3: +11"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 82,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 82,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +8 🪙 Tier 1: +9 🪙 Tier 2: +10 🪙 Tier 3: +11"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 83,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 83,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +14 🪙 Tier 1: +15 🪙 Tier 2: +16 🪙 Tier 3: +17 🪙 Tier 4: +18 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 84,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 84,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +14 🪙 Tier 1: +15 🪙 Tier 2: +16 🪙 Tier 3: +17 🪙 Tier 4: +18 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 85,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 85,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +14 🪙 Tier 1: +15 🪙 Tier 2: +16 🪙 Tier 3: +17 🪙 Tier 4: +18 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 86,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 86,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +14 🪙 Tier 1: +15 🪙 Tier 2: +16 🪙 Tier 3: +17 🪙 Tier 4: +18 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 87,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 87,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +21 🪙 Tier 1: +22 🪙 Tier 2: +23 🪙 Tier 3: +24 🪙 Tier 4: +25 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 88,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 88,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +21 🪙 Tier 1: +22 🪙 Tier 2: +23 🪙 Tier 3: +24 🪙 Tier 4: +25 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 89,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 89,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +21 🪙 Tier 1: +22 🪙 Tier 2: +23 🪙 Tier 3: +24 🪙 Tier 4: +25 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 90,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 90,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +21 🪙 Tier 1: +22 🪙 Tier 2: +23 🪙 Tier 3: +24 🪙 Tier 4: +25 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 91,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 91,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +21 🪙 Tier 1: +22 🪙 Tier 2: +23 🪙 Tier 3: +24 🪙 Tier 4: +25 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 92,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 92,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +31 🪙 Tier 1: +32 🪙 Tier 2: +33 🪙 Tier 3: +34 🪙 Tier 4: +35 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 93,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 93,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +31 🪙 Tier 1: +32 🪙 Tier 2: +33 🪙 Tier 3: +34 🪙 Tier 4: +35 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 94,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 94,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +31 🪙 Tier 1: +32 🪙 Tier 2: +33 🪙 Tier 3: +34 🪙 Tier 4: +35 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 95,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 95,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +31 🪙 Tier 1: +32 🪙 Tier 2: +33 🪙 Tier 3: +34 🪙 Tier 4: +35 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 96,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 96,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +31 🪙 Tier 1: +32 🪙 Tier 2: +33 🪙 Tier 3: +34 🪙 Tier 4: +35 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 97,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 97,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪙 Tier 0: +31 🪙 Tier 1: +32 🪙 Tier 2: +33 🪙 Tier 3: +34 🪙 Tier 4: +35 🪙..."
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 100,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 100,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪨2x Minério de Cobre"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 101,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 101,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪨3x Minério de Estanho"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 102,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 102,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪨2x Minério de Cobre | 🪨1x Minério de Estanho"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 103,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 103,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪨5x Minério de Ferro | 🪵8x Tronco de Freixo"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 104,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 104,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪵10x Tronco de Pyrewood"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 105,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 105,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪨3x Barra de Ferro | 🪵1x Carvão"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 106,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 106,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪵10x Tronco de Madeira de Ferro"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 107,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 107,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪨42x Minério de Tório | 🪵30x Chadcoal"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 108,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 108,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪵50x Tronco de Palmeira"
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 109,
+    "field": "act",
+    "reason": "missing_or_invalid_act",
+    "redactedValue": ""
+  },
+  {
+    "sheet": "Registro de monstros",
+    "row": 109,
+    "field": "relations",
+    "reason": "ambiguous_relation",
+    "redactedValue": "🪨480x Minério de Pedra Solar | 🪵56x Cara de Palma"
+  }
+]
