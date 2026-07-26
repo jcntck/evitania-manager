@@ -30,6 +30,12 @@ const closeApplication = async (application: ElectronApplication): Promise<void>
   await application.close();
 };
 
+const waitUntilReady = async (
+  page: Awaited<ReturnType<ElectronApplication['firstWindow']>>,
+): Promise<void> => {
+  await expect(page.locator('#save-status')).toHaveText('Salvo localmente');
+};
+
 test.afterEach(async () => {
   await Promise.all(applications.splice(0).map((application) => application.close().catch(() => undefined)));
   await Promise.all(directories.splice(0).map((directory) => rm(directory, { recursive: true, force: true })));
@@ -50,6 +56,7 @@ test('E2E-012 installed Debian package has native identity and persists with iso
   }
   let application = await launchInstalled(userData);
   let page = await application.firstWindow();
+  await waitUntilReady(page);
   await page.locator('[data-page="items"]').click();
   await page.locator('[data-action="catalog-create"]').first().click();
   await page.locator('[name="name"]').fill('Persistência do pacote Debian');
@@ -58,6 +65,7 @@ test('E2E-012 installed Debian package has native identity and persists with iso
   await closeApplication(application);
   application = await launchInstalled(userData);
   page = await application.firstWindow();
+  await waitUntilReady(page);
   await page.locator('[data-page="items"]').click();
   await expect(page.locator('.catalog-card').filter({ hasText: 'Persistência do pacote Debian' })).toBeVisible();
 });
@@ -96,6 +104,7 @@ test('E2E-013 installed NSIS package exposes identity, signing state, and isolat
   })).resolves.toMatchObject({ signingStatus: 'signed', credentialSource: 'ci-environment' });
   let application = await launchInstalled(userData);
   let page = await application.firstWindow();
+  await waitUntilReady(page);
   await page.locator('[data-page="items"]').click();
   await page.locator('[data-action="catalog-create"]').first().click();
   await page.locator('[name="name"]').fill('Persistência do instalador NSIS');
@@ -103,6 +112,7 @@ test('E2E-013 installed NSIS package exposes identity, signing state, and isolat
   await closeApplication(application);
   application = await launchInstalled(userData);
   page = await application.firstWindow();
+  await waitUntilReady(page);
   await page.locator('[data-page="items"]').click();
   await expect(page.locator('.catalog-card').filter({ hasText: 'Persistência do instalador NSIS' })).toBeVisible();
 });
